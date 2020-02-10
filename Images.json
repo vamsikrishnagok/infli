@@ -1,0 +1,1 @@
+[{"model": "apis.images", "pk": 1, "fields": {"flickr_id": "asdasd", "owner": "asdasd", "title": "asdasdas", "image": "index.png", "secret": "asd", "farm": "asd", "server": "asd", "description": "asdasdasd", "comments_count": 0, "views_count": 0}}]

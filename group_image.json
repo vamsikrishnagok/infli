@@ -1,0 +1,8 @@
+{
+    "model": "apis.groupimage",
+    "pk": 53,
+    "fields": {
+        "group": 1,
+        "image": 53
+    }
+}
