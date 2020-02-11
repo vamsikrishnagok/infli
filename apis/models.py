@@ -1,7 +1,15 @@
 from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
+from django.dispatch import receiver
+from django.db.models import signals
+from django.conf import settings
+from rest_framework.authtoken.models import Token
 
+# @receiver(signals.post_save, sender=User)
+# def generate_token(sender, instance, created, **kwargs):
+#     Token.objects.create(user=instance)
+#     print("Token Created")
 
 class Images(models.Model):
     flickr_id = models.CharField(max_length=30, blank=False, null=False)
@@ -19,6 +27,7 @@ class Images(models.Model):
         db_table = 'images'
 
 class Group(models.Model):
+    user = models.ForeignKey(User,on_delete=models.CASCADE)
     flickr_id = models.CharField(max_length=30, blank=False, null=False)
     name = models.CharField(max_length=255, null = False, default=None)
     member_count = models.IntegerField(default=0)

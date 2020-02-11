@@ -3,11 +3,48 @@
         "model": "apis.group",
         "pk": 1,
         "fields": {
+            "user": 1,
             "flickr_id": "16978849@N00",
             "name": "Black and White",
-            "member_count": 371045,
-            "image_count": 6133431,
+            "member_count": 371057,
+            "image_count": 6133637,
             "description": "WeIcome to BIack and White. The group for  onIy <b>PURE bIack and white</b> photographs.  Film or digital, it doesn't matter but, please, no sepia, tints, selective or 4-color.\n\n<b>Black and White</b>  (as defined by: Google, Merriam-Webster, &amp; dictionary.com)\n\n1.  in black, white, shades of gray, and no other color.\n\n2.   displaying only black and white tones; without color\n\n\nTo summarize: no tints, tones, sepia, selective color, color watermarks.\n\nAlso, no fantasy world of make-believe, Second Life, online gaming, computer-generated images, screen caps, or videos.\n\nPlease note: we are a <b>queued</b> group with a posting limit of <b>one photo per week</b>. Images will not immediately appear in the pool."
+        }
+    },
+    {
+        "model": "apis.group",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "flickr_id": "34427469792@N01",
+            "name": "FlickrCentral",
+            "member_count": 307573,
+            "image_count": 9198308,
+            "description": "<b>Welcome to FlickrCentral!</b> \nJust like Grand Central but without the oyster bar, the trains, New York city...\n\nFlickrCentral is a place for the newbies to get a taste of what Flickr is about, and a place for the more experienced users to keep a finger on the pulse of our favorite addiction. This group is for viewing Flickr from high above - <i>a place for posts on things that are about Flickr or would interest MOST flickrites.</i>\n\nWe adhere to Flickr's <a href=\"http://www.flickr.com/groups_guidelines.gne\">Group Guidelines</a> and <a href=\"http://www.flickr.com/guidelines.gne\">Community Guidelines</a>.\n\n<b>This is a moderated group.</b> The moderators retain the right to delete (or lock as appropriate) threads and comments that do not follow these rules, guidelines or are perceived to be abusive, redundant, self-promotional/commercial or not leading to novel discussion."
+        }
+    },
+    {
+        "model": "apis.group",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "flickr_id": "42097308@N00",
+            "name": "Less Is More...",
+            "member_count": 81498,
+            "image_count": 72672,
+            "description": "The <b>Less is More...</b> group is a focus on minimalism. Often Minimalism focuses on removing all context from a photograph. Abstractions are welcome.\n\n<b>Minimalism</b> (as defined by <a href=\"http://www.m-w.com/dictionary/minimalism\" rel=\"noreferrer nofollow\">Merriam-Webster</a>)\n\nmin<b>\u00b7</b>i<b>\u00b7</b>mal<b>\u00b7</b>ism\n\n1 : MINIMAL ART\n: abstract art consisting primarily of simple geometric forms executed in an impersonal style\n\n2 : a style or technique (as in music, literature, or design) that is characterized by extreme spareness and simplicity.\n\n<b>Minimalism</b> (as defined by '<a href=\"http://www.flickr.com/groups/minimally_less_is_more/pool/\">Less is More...</a>')\n\nmin<b>\u00b7</b>i<b>\u00b7</b>mal<b>\u00b7</b>ism\n\nThe essence of the image.\n\nEverything that &quot;doesn't matter&quot; is stripped out, leaving only the focus, whether it be a shape or a color or an emotion. Simple in form (usually) but may be very complex in nature or in detail.\n\nThe &quot;finest&quot; examples of minimalism encompass all three to a degree - a clarity of imagery - a purity almost... nothing hidden, just an image laid bare.\n\n\n&quot;<i>I've always loved the zen quality of minimalism. Submit your photos and invite your friends, family, contacts or any Flickr user whose photo you feel demonstrates excellent use of Minimalism.</i>&quot; - <a href=\"http://www.flickr.com/people/mscaprikell/\"><b>MsCapriKell</b></a>, <b>pool creator</b>.\n\n<b><i>Be sure to join our sister group, <a href=\"https://www.flickr.com/groups/lessismore2014/\">Less is More: The Best</a>. This is our &quot;best of the best&quot; showcase of the absolute top minimalism on Flickr. \n\n</i></b>"
+        }
+    },
+    {
+        "model": "apis.group",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "flickr_id": "317988@N20",
+            "name": "MACRO MONDAYS",
+            "member_count": 14811,
+            "image_count": 191645,
+            "description": "THIS IS A MODERATED AND THEME-BASED GROUP \n(Your Photos Must Follow the Theme of the Week)\nThis group is for all macro-loving flickrites!  The concept is simple: take a macro photo based on the current weekly theme and send it to this group on Monday.  A new theme is posted on Tuesday, giving you plenty of time to come up with your very best unique and creative photo.  On the following Monday, post your AWESOME macro for everyone to see!"
         }
     }
 ]
